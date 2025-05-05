@@ -1,0 +1,8 @@
+CREATE TABLE volunteers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  fullname VARCHAR(100),
+  username VARCHAR(50) UNIQUE,
+  email VARCHAR(100),
+  password VARCHAR(255),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
