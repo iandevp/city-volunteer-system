@@ -102,5 +102,41 @@
     font-weight: bold;
     color: #000;
   }
+
+  .help-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #0052cc;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+  }
+  
+  .help-button:hover {
+    background-color: #000000;
+  }
+  
+  .help-button img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  
+form img.Logo {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  width: 120px;
+}
   
   

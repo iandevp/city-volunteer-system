@@ -24,5 +24,10 @@
       <p>Don't have an account? <a href="register.php">Sign up now</a></p>
     </form>
   </div>
+
+    <!-- Help Button (bottom right corner) -->
+    <a href="help.php" class="help-button" title="Need Help?">
+    <span>Need Help?</span>
+  </a>
 </body>
 </html>
