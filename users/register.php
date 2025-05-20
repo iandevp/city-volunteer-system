@@ -213,7 +213,7 @@
 
   <div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px;">
         <button type="button" class="prev-btn">←</button>
-        <button id="submitBtn" type="submit">→</button>
+        <button type="button" class="next-btn">→</button>
 
       </div>
 </div>
@@ -237,8 +237,7 @@
       your account!
     </p>
 
-    <button type="button" class="login-btn" onclick="window.location.href='login.php'">
-      Go to login
+    <button type="submit" class="login-btn" onclick="window.location.href='login.php'"> Login
     </button>
   </div>
 </div>

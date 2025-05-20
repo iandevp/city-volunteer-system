@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+if (isset($_SESSION['popup'])) {
+    $message = $_SESSION['popup'];
+    echo "<script>alert('" . addslashes($message) . "');</script>";
+    unset($_SESSION['popup']);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
