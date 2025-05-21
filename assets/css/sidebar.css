@@ -1,0 +1,86 @@
+.sidebar {
+    width: 220px;
+    background: #fff;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.logo-Name {
+    max-height: 35px;
+    width: auto;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #000;
+    transition: background 0.3s;
+}
+
+.nav-item.active .nav-link,
+.nav-link:hover {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+.logo-NavBar {
+    height: 24px;
+    width: auto;
+}
+
+.bottom-links {
+    padding-bottom: 20px;
+}
+
+.bottom-links a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    transition: background 0.3s;
+}
+
+.bottom-links a:hover {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
